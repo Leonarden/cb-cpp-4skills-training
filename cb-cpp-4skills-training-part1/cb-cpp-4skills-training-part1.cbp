@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cb-cpp-4skills-training-part1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/cb-cpp-4skills-training-part1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/cb-cpp-4skills-training-part1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="10-marrays/01/01.h" />
+		<Unit filename="10-marrays/01/02.h" />
+		<Unit filename="10-marrays/01/03.h" />
+		<Unit filename="10-marrays/02/01.h" />
+		<Unit filename="10-marrays/02/02.h" />
+		<Unit filename="10-marrays/02/03.h" />
+		<Unit filename="10-marrays/03/01.h" />
+		<Unit filename="10-marrays/04/01.h" />
+		<Unit filename="10-marrays/04/02.h" />
+		<Unit filename="10-marrays/04/03.h" />
+		<Unit filename="10-marrays/05/01.h" />
+		<Unit filename="10-marrays/05/01_shorter.h" />
+		<Unit filename="12-recfunc/01/1.h" />
+		<Unit filename="12-recfunc/01/2.h" />
+		<Unit filename="12-recfunc/02/1.h" />
+		<Unit filename="12-recfunc/03/1.h" />
+		<Unit filename="12-recfunc/04/2.h" />
+		<Unit filename="12-recfunc/05/1.h" />
+		<Unit filename="13-project1/01hospital_v1.h" />
+		<Unit filename="13-project1/hospital_v1.cpp" />
+		<Unit filename="appheaders.h" />
+		<Unit filename="funcodelist.txt" />
+		<Unit filename="main.cpp" />
+		<Unit filename="util.h" />
+		<Unit filename="util_sub.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
